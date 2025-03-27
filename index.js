@@ -46,9 +46,10 @@ const client = new ForgeClient({
 ForgeDB.variables(variables);
 
 // ========== LOAD FUNCTIONS & COMMANDS ==========
-client.functions.load("./Custom Functions");
+// client.functions.load("./Custom Functions");
 client.applicationCommands.load("./Slash Commands");
-client.commands.load("./Interaction Commands")
+// client.commands.load("./Interaction Commands")
+
 // ========== LOGIN & STARTUP ==========
 // Log in to Discord using the bot token from the environment file
 client.login(process.env.BOT_TOKEN);

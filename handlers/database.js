@@ -7,6 +7,10 @@ const variables = {
     game_status: "null",
     blacklisted: false,
     tos: false,
+    party: "",
+    pending_invites: "none",
+    inparty: false,
+    party_owner: "",
   };
   
   module.exports = variables;  // Export the variables object
