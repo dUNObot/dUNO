@@ -1,0 +1,38 @@
+{
+  "name": "duno",
+  "version": "1.0.0",
+  "description": "A Discord bot to play UNO with friends or random ahh people — whatever suits your boat.",
+  "main": "./src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "clear && node ./index.js",
+    "up": "npm install && npm update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dUNObot/dUNO.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "uno",
+    "duno",
+    "games"
+  ],
+  "author": "toooast & zack-911",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dUNObot/dUNO/issues"
+  },
+  "homepage": "https://github.com/dUNObot/dUNO#readme",
+  "dependencies": {
+    "@tryforge/forge.canvas": "^1.1.1",
+    "@tryforge/forge.db": "^2.0.7",
+    "@tryforge/forgescript": "github:tryforge/forgescript#dev",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "figlet": "^1.8.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
+  }
+}
