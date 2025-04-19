@@ -9,3 +9,6 @@ Probably the best discord bot to play classic, one of the most popular card game
 - First open BETA soon™
 
 ## Commands
+
+### Party
+`/party host, /party view, /party invite, /party accept, /party decline, /party join, /party leave`
