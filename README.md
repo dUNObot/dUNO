@@ -12,3 +12,8 @@ Probably the best discord bot to play classic, one of the most popular card game
 
 ### Party
 `/party host, /party view, /party invite, /party accept, /party decline, /party join, /party leave`
+
+## Contribution
+
+We are open to changes and becoming dUNO developer!
+Contact toooast. for more information.
