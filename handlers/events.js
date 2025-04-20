@@ -1,4 +1,3 @@
-// src/handlers/events.js
 const events = [
     'debug',
     'error',
@@ -8,4 +7,4 @@ const events = [
     'ready',
 ];
 
-module.exports = events; // Export the variables array
+module.exports = events;

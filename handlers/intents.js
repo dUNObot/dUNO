@@ -1,4 +1,3 @@
-// src/handlers/events.js
 const intents = [
     "Guilds",
     "GuildMembers",
@@ -21,4 +20,4 @@ const intents = [
     "AutoModerationExecution",
 ];
 
-module.exports = intents; // Export the variables array
+module.exports = intents;

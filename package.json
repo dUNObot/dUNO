@@ -28,7 +28,7 @@
   "dependencies": {
     "@tryforge/forge.canvas": "^1.2.1",
     "@tryforge/forge.db": "^2.0.9",
-    "@tryforge/forgescript": "github:tryforge/forgescript#dev",
+    "@tryforge/forgescript": "github:tryforge/ForgeScript#dev",
     "chalk": "^4.1.2",
     "dotenv": "^16.4.7",
     "figlet": "^1.8.0",

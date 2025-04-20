@@ -2,7 +2,6 @@ const chalk = require('chalk');
 const figlet = require('figlet');
 
 const displayAsciiArt = () => {
-  // dUNO Color Themed Banner + Status
   const dUNOGradient = chalk.redBright.bold.bgBlack(' d') +
                        chalk.yellowBright.bold.bgBlack(' U') +
                        chalk.greenBright.bold.bgBlack(' N') +
@@ -18,7 +17,6 @@ const displayAsciiArt = () => {
       return;
     }
 
-    // UNO color cycle for the ASCII art
     const lines = data.split('\n');
     const colors = [chalk.redBright, chalk.yellowBright, chalk.greenBright, chalk.blueBright];
 

@@ -1,9 +1,4 @@
-// src/handlers/database.js
 const variables = {
-   // Example Variables
-   // blacklist: false,
-   // isZack911Cool: true,
-   // greetings: "hello"
     game_status: "null",
     blacklisted: false,
     tos: false,
@@ -13,7 +8,10 @@ const variables = {
     party_owner: "",
     party_code: "none",
     party_codes: "none",
+    party_count: "0",
+    party_banned: "none",
+    deck: "",
+    currentCard: "",
   };
   
-  module.exports = variables;  // Export the variables object
-  
+  module.exports = variables;

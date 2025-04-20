@@ -1,9 +1,11 @@
 module.exports = {
     type: "interactionCreate",
     code: `
-    $onlyIf[$customID==partycode]
-    $onlyIf[$getUserVar[party_owner;$authorID]==$authorID;Only party owner can view party code! $ephemeral]
+    $onlyIf[$advancedTextSplit[$customID;_;0]==partycode]
+    $onlyIf[$getMemberVar[party_owner;$authorID]==$advancedTextSplit[$customID;_;1];$description[This is not your party!] $color[#e00741] $ephemeral]
+    $onlyIf[$getMemberVar[party_owner;$authorID]==$authorID;$description[Only party owner can view party code!] $color[#e00741] $ephemeral]
     $ephemeral
-    Your party code: \`$getUserVar[party_code;$authorID]\`
+    $description[Your party code: \`$getMemberVar[party_code;$authorID]\`]
+    $color[#e00741]
     `
-}
+};
