@@ -1,7 +1,7 @@
 {
   "name": "duno",
-  "version": "1.0.0",
-  "description": "A Discord bot to play UNO with friends or random ahh people — whatever suits your boat.",
+  "version": "0.4.0",
+  "description": "Best discord bot to play popular card game UNO on your server.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -19,7 +19,7 @@
     "duno",
     "games"
   ],
-  "author": "toooast & zack-911",
+  "author": "toooast.",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dUNObot/dUNO/issues"
